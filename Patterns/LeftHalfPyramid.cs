@@ -8,8 +8,9 @@ class Pattern {
         
         for(int i = 0; i < n; i++) {
             
-            for(int k = 0; k < i; k++) {
-                Console.Write(i + " ");
+            for(int j = 1; j < i+1; j++) {
+                
+                Console.Write(j + " ");
             }
             Console.WriteLine();
         }
@@ -17,8 +18,8 @@ class Pattern {
 }
 
 // O/P:
-     
+
 // 1 
-// 2 2 
-// 3 3 3 
-// 4 4 4 4 
+// 1 2 
+// 1 2 3 
+// 1 2 3 4 
